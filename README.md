@@ -9,15 +9,9 @@ BLOC
 
 ## images
 
-<div style="display: flex; gap: 20px;>
+|  <img src="https://github.com/roypa123/flashlight/blob/27b0b7a64f7644b33a416d1b1ec26edf16e96973/extra_file/git_images/image1.jpeg?raw=true" width="225.8" height="500"/> | <img src="https://github.com/roypa123/flashlight/blob/27b0b7a64f7644b33a416d1b1ec26edf16e96973/extra_file/git_images/image2.jpeg?raw=true" width="225.8" height="500"/>  |  <img src="https://github.com/roypa123/flashlight/blob/27b0b7a64f7644b33a416d1b1ec26edf16e96973/extra_file/git_images/image3.jpeg?raw=true" width="225.8" height="500"/>
 
-<img src="https://github.com/roypa123/flashlight/blob/27b0b7a64f7644b33a416d1b1ec26edf16e96973/extra_file/git_images/image1.jpeg?raw=true" width="225.8" height="500"/>
 
-<img src="https://github.com/roypa123/flashlight/blob/27b0b7a64f7644b33a416d1b1ec26edf16e96973/extra_file/git_images/image2.jpeg?raw=true" width="225.8" height="500"/>
-
-<img src="https://github.com/roypa123/flashlight/blob/27b0b7a64f7644b33a416d1b1ec26edf16e96973/extra_file/git_images/image3.jpeg?raw=true" width="225.8" height="500"/>
-
-</div>
 
 
 
