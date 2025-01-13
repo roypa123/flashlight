@@ -1,4 +1,4 @@
-import 'package:flashlight/flash_light_app.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -20,7 +20,7 @@ class MainScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Icon(
-              Icons.sunny,
+              Icons.flashlight_on,
               color: AppColors.ffd8b0e,
               size: 80.w,
             ),
@@ -31,17 +31,37 @@ class MainScreen extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-            50.verticalSpace,
+            100.verticalSpace,
             GestureDetector(
               onTap: () {},
               child: Stack(
+                alignment: Alignment.center,
                 children: [
                   Container(
-                    width: 150.w,
+                    width: 180.w,
+                    height: 180.w,
+                    decoration: BoxDecoration(
+                        color: AppColors.ffd8b0e.withOpacity(0.1),
+                        shape: BoxShape.circle),
+                  ),
+                  Container(
+                    width: 140.w,
+                    height: 140.w,
+                    decoration: BoxDecoration(
+                        color: AppColors.ffd8b0e.withOpacity(0.4),
+                        shape: BoxShape.circle),
+                  ),
+                  Container(
+                    width: 100.w,
+                    height: 100.w,
                     decoration: const BoxDecoration(
-                        color: Colors.yellow, shape: BoxShape.circle),
-                    child: Text("sds"),
-                  )
+                        color: AppColors.ffd8b0e, shape: BoxShape.circle),
+                    child: Icon(
+                      Icons.power_settings_new,
+                      size: 70.w,
+                      color: AppColors.white,
+                    ),
+                  ),
                 ],
               ),
             ),

@@ -32,25 +32,18 @@ class SplashScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Icon(
-                Icons.bolt_rounded,
+                Icons.flashlight_on,
                 size: 70.w,
                 color: AppColors.ffd8b0e,
               ),
               25.verticalSpace,
-               Text(
+              Text(
                 Strings.flashLight,
                 style: TextStyle(
                     fontSize: 24.sp,
                     fontWeight: FontWeight.bold,
                     color: AppColors.ffd8b0e),
               ),
-              40.verticalSpace,
-              Stack(
-                children: [
-                  Container()
-                ],
-
-              )
             ],
           ),
         ),

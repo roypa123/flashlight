@@ -1,16 +1,4 @@
-# flashlight
 
-A new Flutter project.
+# FLASHLIGHT
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A flashlight app is a simple yet highly useful utility application that allows users to use their device as a source of light. These apps utilize the device's built-in LED flash (usually associated with the camera) or the screen to provide illumination. Flashlight apps are essential tools for various scenarios, from finding items in the dark to providing light during power outages.
