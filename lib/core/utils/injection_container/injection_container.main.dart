@@ -14,7 +14,7 @@ Future<void> _initSplashBloc() async {
 }
 
 Future<void> _initMainBloc() async {
-  // sl.registerFactory(
-  //   () => MainBloc(),
-  // );
+  sl.registerFactory(
+    () => MainBloc(),
+  );
 }

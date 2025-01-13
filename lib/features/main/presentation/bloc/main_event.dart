@@ -4,7 +4,7 @@ abstract class MainEvent extends Equatable {
   const MainEvent();
 }
 
-class  MainSplash extends MainEvent {
+class  MainPowerButtonEvent extends MainEvent {
   @override
   List<Object?> get props => [];
 }
